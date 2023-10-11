@@ -1,0 +1,29 @@
+.recipe-card {
+  cursor: pointer;
+}
+
+.MuiCardHeader-content {
+  width: 30%;
+}
+
+.MuiAvatar-root {
+  background-color: rgb(99, 102, 241) !important;
+}
+
+.MuiTypography-root {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.content {
+  color: rgb(185, 182, 182);
+  font-size: 12px;
+}
+
+.header .MuiTypography-root {
+  font-size: 1rem !important;
+  font-weight: 800 !important;
+  font-family: inherit;
+
+}

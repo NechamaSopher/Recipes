@@ -1,0 +1,24 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5rem;
+}
+
+.about-content {
+    width: 70%;
+}
+
+.top-title {
+    width: 100%;
+    padding: 2rem 0;
+    color: rgb(99, 102, 241);
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-align: center;
+    margin: unset;
+}
+
+.title {
+    margin-top: 2rem;
+}

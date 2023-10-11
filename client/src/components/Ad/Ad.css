@@ -1,0 +1,46 @@
+.ad {
+  position: relative;
+  background-color: lightgray;
+  animation: growingAnimation 3s ease-in-out infinite;
+
+}
+
+.top-ad,
+.bottom-ad {
+  width: 70%;
+  height: 5rem;
+}
+
+.side-ad {
+  position: absolute;
+  right: 3rem;
+  top: 30%;
+  width: 10%;
+  height: 60%;
+}
+
+.close {
+  float: right;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+@keyframes growingAnimation {
+
+  0%,
+  100% {
+    transform: scale(1.05);
+  }
+
+  20%,
+  80% {
+    transform: scale(1);
+  }
+}
